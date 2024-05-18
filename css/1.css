@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #262626;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: arial;
+    font-size: 44px;
+    border-top: 5px solid #262626 ;
+    border-bottom: 5px solid #262626 ;
+    padding: 15px 0;
+    transform: .3s;
+}
+
+h1:hover{
+    animation: animate .5s;
+    letter-spacing: 20px;
+}
+
+@keyframes animate{
+    0%{
+        letter-spacing: 0px;
+    }
+
+    50%{
+        letter-spacing: -20px;
+    }
+
+    100%{
+        letter-spacing: 20px;
+    }
+}

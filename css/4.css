@@ -1,0 +1,382 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.rMain{
+    width: 100%;
+    min-height: 700px;
+    background-color: gray;
+    float: left;
+}
+
+.header{
+    width: 100%;
+    min-height: 120px;
+    float: left;
+    position: relative;
+}
+
+.rTopMenu{
+    width: 100%;
+    min-height: 50px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topSubMenu{
+    min-width: 100px;
+    min-height: inherit;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.rNavbar{
+    width: 100%;
+    min-height: 70px;
+    /* background-color: purple; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.screen{
+    width: 100%;
+    min-height: 130px;
+    float: left;
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+.rTopMenu ul{
+    padding: 0;
+    margin: 0;
+}
+
+.rTopMenu ul li{
+    float: left;
+    margin-left: 40px;
+}
+
+.rTopMenu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.rTopMenu ul li:last-child{
+    margin-right: 25px;
+}
+
+.rTopMenu ul li:last-child{
+    margin-right: 25px;
+}
+
+#home{
+    width: 100%;
+    min-height: 690px;
+    float: left;
+    background-image:url('https://convergeblog.com/wp-content/uploads/2019/01/rawpixel-973137-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.jaluz{
+    width: 100%;
+    min-height: 690px;
+    float: left;
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+}
+
+.rLogo{
+    width:124px;
+    height: 50px;
+    margin-left: 16px;
+    border: 2px solid white;
+    float: left;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    
+}
+
+.bot0{
+    padding-top: 0 ;
+    padding-bottom: 0 ;
+    
+}
+
+.disFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navmenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navmenu ul{
+    padding: 0;
+    margin: 0;
+
+}
+
+.navmenu ul li{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.navmenu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topSubMenu ul{
+    padding: 0;
+    margin: 0;
+}
+
+.topSubMenu ul li{
+    float: left;
+    margin-left: 40px;
+}
+
+.topSubMenu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.topSubMenu ul li:last-child{
+    margin-right: 25px;
+}
+
+.end{
+    right: -530px;
+}
+
+.center{
+    right: -300px;
+}
+
+.centerImport{
+    width: 750px;
+    height: 350px;
+    float: left;
+    margin: 120px 0 0 68px;
+    position: relative;
+    z-index: 1;
+}
+
+.centerImport span{
+    font-size: 25px;
+    letter-spacing: 6px;
+    color: white;
+}
+
+.centerImport h1{
+    font-size: 80px;
+    margin: 0;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.centerImport p{
+    color: white;
+    font-size: 21px;
+}
+
+.RreadMmore{
+    width: 100%;
+    height: 40px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.ReadMore{
+    width: 200px;
+    height: 50px;
+    background-color: #00ab41;
+    border-radius: 5px;
+    float: left;
+    color: white;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.next{
+    width: 40px;
+    height: inherit;
+    color: white;
+    margin-left: 10px;
+    float: left;
+}
+
+.BB{
+    width: 340px;
+    min-height: 150px;
+}
+
+.footer{
+    width: 100%;
+    min-height: 270px;
+    background-color: #f4f4f4;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon{
+    width: 90px;
+    height: 150px;
+    float: left;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+
+.fa-icons{
+    width: 70px;
+    height: 50px;
+}
+
+.MiniFooter{
+    width: 100%;
+    height: 850px;
+    float: left;
+}
+
+.ForEvery{
+    width: 1300px;
+    height: 700px;
+    float: left;
+}
+
+.div .pictures:nth-child(6){
+    outline: 0.6px solid black;
+}
+
+.div .pictures:nth-child(4){
+    outline: 0.6px solid black;
+}
+
+.Letter{
+    width: 100%;
+    height: 100px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.choosers{
+    width: 650px;
+    height: 50px;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.choosers ul {
+    padding: 0px;
+}
+
+.choosers ul li{
+    float: left;
+    list-style-type: none;
+}
+
+.choosers ul li a{
+    margin: 10px;
+    padding: 1px 18px;
+    text-decoration: none;
+    color: #51555b;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.choosers ul li a:hover{
+    background-color: #00ab41;
+    color: white;
+    transition: .5s;
+}
+
+.topSubMenu ul li a:hover{
+    background-color: #193967;
+    color: white;
+    transition: .5s;
+}
+
+.ReadMore:hover{
+    background-color: #193967;
+    color: white;
+    transition: .5s;
+}
+
+.BB:hover{
+    background-color: #193967;
+    color: white;
+    transition: .5s;
+}
+
+.ImportFoto{
+    width: 100%;
+    height: 600px;
+    padding: 20px 0px ;
+    box-sizing: border-box;
+    float: left;
+}
+
+.pictures{
+    width: 400px;
+    height: 280px;
+    background-position: center;
+    background-size: cover; 
+    overflow: hidden;
+    margin: 0px 25px 25px 0px;
+    float: left;
+}
+
+.RR{
+    margin-left: 20px;
+}
